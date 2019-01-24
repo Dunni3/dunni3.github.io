@@ -108,11 +108,8 @@ author:
   avatar           : "/assets/images/headshot.jpg"
   bio              : "Chemical Engineer. Data Scientist."
   location         : "New Jersey, USA"
-  email            : iand754@gmail.com
+  email            : ian@iandunn.io
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:ian@iandunn.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/ChemDataSci"
