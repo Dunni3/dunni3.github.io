@@ -26,8 +26,8 @@ The solution is to get VS code to run its server/background processes on compute
 
 Note that some of these instructions will be specific to the pitt CSB cluster
 
-0. Install VS code and the remote SSH development extension
-1. Place the following into your ssh config file:
+1. Install VS code and the remote SSH development extension
+2. Place the following into your ssh config file:
 
 ```text
 Host n??? g???
@@ -35,6 +35,6 @@ Host n??? g???
 	IdentityFile YOUR_CLUSTER_SSH_KEY
 	ProxyCommand ssh -t -W %h.csb.pitt.edu:%p cluster
 ```
-2. Start an interactive job on the cluster having the appropriate computational resources. Make note of the node that your job is running on.
-3. Open VS code, open the command palette (command+shift+p). Search for  "Remote-SSH: Connect to Host". Select this option
-4. Type in the name of the node that your interactive job is running on. For example, if it is on node `g001`, that is all you have to type into the command palette.  
+3. Start an interactive job on the cluster having the appropriate computational resources. Make note of the node that your job is running on.
+4. Open VS code, open the command palette (command+shift+p). Search for  "Remote-SSH: Connect to Host". Select this option
+5. Type in the name of the node that your interactive job is running on. For example, if it is on node `g001`, that is all you have to type into the command palette. Press enter. 
