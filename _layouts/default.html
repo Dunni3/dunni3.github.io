@@ -12,7 +12,14 @@
         <h1 class="post-headline">{{site.title}}</h1>
         <h3 class="post-description">{{site.description}}</h3>
 
-        {% include analytics.html %}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMZJTPQ86F"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-LMZJTPQ86F');
+        </script>
 
         {% include navigation.html %}
 
