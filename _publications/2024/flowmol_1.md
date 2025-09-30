@@ -16,7 +16,7 @@ abstract: >-
   design with fewer learnable parameters than existing methods. Additionally, we
   propose the use of metrics that capture molecule quality beyond local chemical
   valency constraints and towards higher-order structural motifs.
-cover: https://raw.githubusercontent.com/Dunni3/FlowMol/refs/heads/main/images/ga.png
+cover: https://raw.githubusercontent.com/Dunni3/FlowMol/8f777fd57c9e1decc4f9ef6a76b366dac874c838/images/ga.png
 authors:
   - Ian Dunn
   - David Ryan Koes
